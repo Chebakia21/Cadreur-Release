@@ -5,19 +5,23 @@ Il ne contient que les versions de l'application, pas son code.
 
 | Application | Version | Publiée le |
 |---|---|---|
-| Cadreur | 0.4.0 | 22/10/2026 |
+| Cadreur | 0.5.0 | 22/10/2026 |
 | Cadreur Hub | 1.0.0 | 22/10/2026 |
 
 ## Installer Cadreur Hub
 
 Le Hub installe Cadreur puis le tient à jour tout seul.
 
-## Nouveautés de Cadreur 0.4.0
+## Nouveautés de Cadreur 0.5.0
 
-- Nouvel espace Montage : un vrai logiciel de montage multipiste, à côté de l'espace Clips (bouton Montage / Clips en haut à gauche).
-- Chutier : importez plusieurs vidéos, sons et images (bouton ou glisser-déposer), avec vignettes et formes d'onde.
-- Moniteur source pour choisir un passage (I / O) puis l'insérer ou l'écraser dans la timeline, et moniteur programme qui montre le montage composé.
-- Timeline multipiste : outils sélection, lame, ripple, roll, slip et slide, aimantation, zoom, pistes verrouillables, marqueurs, copier-coller, annuler / rétablir.
-- Plusieurs séquences par projet (versions) aux formats 16:9, 9:16, 1:1, 4:5 ou 4K.
-- Export du montage en MP4 (YouTube, TikTok / Shorts / Reels, archive, personnalisé), écrit directement sur le disque et vérifié une fois terminé.
-- Depuis l'espace Clips : « Assembler les clips dans le montage » crée une compilation en un clic.
+- Animations : position, échelle, rotation, opacité et recadrage, réglables dans le panneau ou directement dans le moniteur (déplacer, agrandir par les coins, tourner).
+- Images clés : le losange à côté d'une propriété l'anime ; chaque image clé se règle avec une courbe (linéaire, accélère, ralentit, douce, maintien ou courbe libre à poignées).
+- Animations rapides en un clic : zoom avant ou arrière lent, panoramique, apparition, entrée par la gauche, sortie par la droite, secousse.
+- Effets à glisser sur un plan, animables eux aussi : réglages de couleur, flou, noir et blanc, sépia, négatif, vignettage.
+- Transitions à glisser sur une coupe : fondu enchaîné, fondu au noir, fondu au blanc, poussée, balayage ; le son suit avec un fondu enchaîné.
+- Fondus d'ouverture et de fermeture (image et son) avec les poignées rondes en haut des plans.
+- Son : volume et panoramique animables par plan, plus un réglage de volume et de panoramique par piste.
+- Panneau Historique : chaque opération est nommée, un clic revient à n'importe quelle étape.
+- Ce que montre l'aperçu (animations, effets, transitions, mixage) se retrouve à l'identique dans le fichier exporté.
+- Les clips envoyés depuis l'espace Clips gardent leur cadrage, leur suivi du visage, leur écran partagé ou leur fond flou, désormais modifiables.
+- Les outils de la timeline ont des noms français : Décaler, Raccord, Contenu, Glisser.
