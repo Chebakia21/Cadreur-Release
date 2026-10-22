@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "apps": [
+    {
+      "id": "cadreur",
+      "name": "Cadreur",
+      "tagline": "Du stream au clip : moments forts, cadrage, sous-titres, export.",
+      "version": "0.3.0",
+      "date": "2026-10-22T13:35:49.616Z",
+      "notes": [
+        "Nouvelle interface : fond gris neutre, panneaux flottants, police plus ronde.",
+        "L'orange est réservé à l'essentiel (Exporter, interrupteurs, progression, vrais pics d'activité).",
+        "Accueil : collez un lien Twitch directement sur la page.",
+        "Import Twitch : carte de la VOD et choix de la qualité en tuiles, avec le poids de chaque option.",
+        "Export : clips et réglages à gauche, aperçu au centre, file d'export à droite."
+      ],
+      "packages": {
+        "patch": {
+          "url": "cadreur/0.3.0/cadreur-0.3.0-patch.cadreur",
+          "size": 12342395,
+          "sha256": "8738390db4c3774bd3ddbbe0a0f0b6149a5c62293817c3fcc6bc10a4cb21169e",
+          "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
+        },
+        "full": {
+          "version": "0.3.0",
+          "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556",
+          "size": 170043471,
+          "sha256": "5d130d36ec718df15cd5d443cd2d74bedbe150f4f0ff3ab96dfde648b49e332e",
+          "parts": [
+            {
+              "url": "cadreur/base/cadreur-0.3.0-full.cadreur.part01",
+              "size": 94371840
+            },
+            {
+              "url": "cadreur/base/cadreur-0.3.0-full.cadreur.part02",
+              "size": 75671631
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hub",
+      "name": "Cadreur Hub",
+      "version": "1.0.0",
+      "date": "2026-10-22T13:35:49.616Z",
+      "notes": [
+        "Première version : installe, lance et met à jour Cadreur depuis le cloud."
+      ],
+      "packages": {
+        "hub": {
+          "url": "hub/1.0.0/hub-1.0.0.cadreur",
+          "size": 181359,
+          "sha256": "7d8e27a2f85a95d29d78470a739a6390fc868ce129169bdbcb22cc971c7c2950"
+        }
+      }
+    }
+  ],
+  "updatedAt": "2026-10-22T13:35:49.616Z"
+}
