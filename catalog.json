@@ -53,19 +53,65 @@
     {
       "id": "hub",
       "name": "OneClip Hub",
-      "version": "1.1.1",
-      "date": "2026-10-24T16:49:20.805Z",
+      "version": "1.2.0",
+      "date": "2026-10-24T23:41:31.483Z",
       "notes": [
-        "Le raccourci « Cadreur Hub » du bureau et du menu Démarrer devient « OneClip Hub », avec le nouveau logo."
+        "OneFile, le nouveau convertisseur de fichiers, s’installe et se met à jour depuis le Hub, à côté de OneClip.",
+        "Le clic droit « Convertir avec OneFile » suit automatiquement chaque mise à jour de OneFile."
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.1.1/hub-1.1.1.cadreur",
-          "size": 302232,
-          "sha256": "3943bd169e6102df1898440c0f4e433d6702f2ee3028463d98b90efa3775647a"
+          "url": "hub/1.2.0/hub-1.2.0.cadreur",
+          "size": 303517,
+          "sha256": "0e00b997eb3d5eee50b2de9da1ea6cc77300db76386a658d61070ba7b0ab8193"
+        }
+      }
+    },
+    {
+      "id": "onefile",
+      "name": "OneFile",
+      "tagline": "Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local.",
+      "version": "1.0.0",
+      "date": "2026-10-24T23:41:31.483Z",
+      "notes": [
+        "Première version de OneFile : convertissez images, vidéos, sons, PDF et archives, par lots, sans rien envoyer en ligne.",
+        "Glissez des fichiers ou des dossiers entiers : chaque catégorie a son format de sortie, et les fichiers convertis sont créés à côté des originaux, sans jamais rien écraser.",
+        "Photos d’iPhone (HEIC) en JPG, images en WebP, AVIF, PNG, GIF, TIFF, BMP, ICO ou PDF, avec qualité et taille maximale réglables.",
+        "Vidéos en MP4, WebM, MKV, MOV ou GIF, son extrait en MP3, M4A ou WAV, et poids maximal garanti (10 Mo pour Discord).",
+        "Sons en MP3, M4A, WAV, FLAC, OGG ou Opus, avec volume harmonisé en option.",
+        "PDF en images, en texte, découpés page par page ou fusionnés ; archives ZIP, 7Z, RAR et TAR.GZ extraites ou recompressées ; dossiers compressés.",
+        "Préréglages (web, Discord, photos iPhone, musique, icône Windows), préréglages personnels et renommage en lot avec numéros.",
+        "« Convertir avec OneFile » dans le clic droit de Windows, à activer dans les Paramètres de OneFile."
+      ],
+      "packages": {
+        "patch": {
+          "url": "onefile/1.0.0/onefile-1.0.0-patch.cadreur",
+          "size": 10465140,
+          "sha256": "2ecb0f060ab01ce5cca7dd0746cc93e5f9fbbce4a343e9ba8f5623d914e9e106",
+          "runtimeHash": "dc42cbb56148332a56bc8224e403afc97085d8d4baf5cb3075da46ec418fa043"
+        },
+        "full": {
+          "version": "1.0.0",
+          "runtimeHash": "dc42cbb56148332a56bc8224e403afc97085d8d4baf5cb3075da46ec418fa043",
+          "size": 228425044,
+          "sha256": "c3450a509ee67688721eb4b6be01ceb8f5d2e27978e894d94a99c1703484730f",
+          "parts": [
+            {
+              "url": "onefile/base/onefile-1.0.0-full.cadreur.part01",
+              "size": 94371840
+            },
+            {
+              "url": "onefile/base/onefile-1.0.0-full.cadreur.part02",
+              "size": 94371840
+            },
+            {
+              "url": "onefile/base/onefile-1.0.0-full.cadreur.part03",
+              "size": 39681364
+            }
+          ]
         }
       }
     }
   ],
-  "updatedAt": "2026-10-24T16:49:20.805Z"
+  "updatedAt": "2026-10-24T23:41:31.483Z"
 }
