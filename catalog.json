@@ -3,19 +3,33 @@
   "apps": [
     {
       "id": "cadreur",
-      "name": "Cadreur",
-      "tagline": "Du stream au clip : moments forts, cadrage, sous-titres, export.",
-      "version": "0.6.1",
-      "date": "2026-10-23T21:25:35.445Z",
+      "name": "OneClip",
+      "tagline": "Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export.",
+      "version": "0.7.0",
+      "date": "2026-10-24T16:20:20.050Z",
       "notes": [
-        "Correction : la création des sous-titres échouait sur certains clips avec le message « frameOffset out of range ». L'extraction du son a été refaite et fonctionne quels que soient le début et la fin du clip.",
-        "Si un clip dépasse la fin du son de la vidéo, un message clair l'indique au lieu d'une erreur technique."
+        "Cadreur devient OneClip : nouveau nom, nouveau logo et nouvelle icône (translucide en grand, unie en petit). Vos projets, réglages et raccourcis sont conservés.",
+        "Nouvelles couleurs : interface bleu nuit et crème, avec un bleu d'accent réservé aux actions principales.",
+        "Panneaux redimensionnables (poignées entre les panneaux et au-dessus de la timeline) et repliables (boutons en haut à droite) ; votre disposition est gardée d'un lancement à l'autre.",
+        "Sur un petit écran, les panneaux rétrécissent puis se replient d'eux-mêmes pour laisser la place à l'aperçu ; sur un grand écran, ils s'élargissent.",
+        "Propriétés du montage rangées en catégories repliables : Transformation, Animation, Vitesse, Audio, Couleur, Effets, Masques, Suivi, Fondus, Sous-titres, Informations du média.",
+        "Avec plusieurs plans sélectionnés, chaque catégorie indique si elle modifie tous les plans ou seulement le plan actif.",
+        "Champs numériques plus précis : flèches ↑ ↓ au clavier, saisie au clavier vérifiée avec un message si la valeur n'est pas reconnue.",
+        "Toutes les fenêtres restent centrées et entièrement visibles quand vous redimensionnez Cadreur ; le focus va au bon endroit et revient d'où vous veniez ; Échap ferme.",
+        "Le menu du clic droit ne sort plus de l'écran et se pilote au clavier.",
+        "Nouveau menu Cadreur (le logo) : accueil, nouveau montage, créer des clips, enregistrer, réglages, raccourcis et « À propos » avec la version et ce dont Cadreur a besoin sur l'ordinateur.",
+        "Le graphique d'intensité des moments est plus grand, avec un axe des temps et la valeur exacte au survol.",
+        "Moniteurs : avance image par image et état de chargement dans le moniteur source, message clair si un fichier ne se lit pas, image toujours au bon ratio quelle que soit la qualité d'aperçu.",
+        "Timeline : vignettes le long des plans vidéo (calculées en arrière-plan et gardées), confirmation avant de supprimer une piste qui contient des plans.",
+        "Cadreur se rouvre à la même taille et au même endroit, et revient sur l'écran si celui-ci a été débranché.",
+        "Les projets récents signalent les vidéos introuvables, et le Cadreur Hub peut ouvrir un projet ou démarrer un montage directement.",
+        "Nouveau réglage « Réduire les animations », zones de clic agrandies et textes plus lisibles partout."
       ],
       "packages": {
         "patch": {
-          "url": "cadreur/0.6.1/cadreur-0.6.1-patch.cadreur",
-          "size": 17121974,
-          "sha256": "736244beabc09cb565f5dba369fd42ae1a683af83c0b6b94ac1b5c88c6c285c2",
+          "url": "cadreur/0.7.0/cadreur-0.7.0-patch.cadreur",
+          "size": 17256839,
+          "sha256": "a2c692afc673166396fc63ef7c3a167ee01a0681612720bd16577e5e5b8d7efe",
           "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
         },
         "full": {
@@ -38,20 +52,23 @@
     },
     {
       "id": "hub",
-      "name": "Cadreur Hub",
-      "version": "1.0.0",
-      "date": "2026-10-22T13:35:49.616Z",
+      "name": "OneClip Hub",
+      "version": "1.1.0",
+      "date": "2026-10-24T16:20:20.050Z",
       "notes": [
-        "Première version : installe, lance et met à jour Cadreur depuis le cloud."
+        "Le Hub devient OneClip Hub, aux couleurs de OneClip ; vos raccourcis « Cadreur » sont remplacés par « OneClip ».",
+        "Commencez depuis le Hub : « Nouveau montage » ou « Créer des clips » ouvrent OneClip directement au bon endroit.",
+        "Vos projets récents s'affichent dans le Hub (double-clic pour ouvrir) ; un projet dont la vidéo est introuvable est signalé.",
+        "Même apparence que OneClip (mêmes couleurs et tailles de boutons)."
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.0.0/hub-1.0.0.cadreur",
-          "size": 181359,
-          "sha256": "7d8e27a2f85a95d29d78470a739a6390fc868ce129169bdbcb22cc971c7c2950"
+          "url": "hub/1.1.0/hub-1.1.0.cadreur",
+          "size": 300821,
+          "sha256": "d3a0d83dfe1d10bfdfadff8917f0a3666ac30c6724fa90abfe56251c6ec8963b"
         }
       }
     }
   ],
-  "updatedAt": "2026-10-23T21:25:35.445Z"
+  "updatedAt": "2026-10-24T16:20:20.050Z"
 }
