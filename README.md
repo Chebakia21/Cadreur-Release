@@ -6,7 +6,7 @@ Il ne contient que les versions de l'application, pas son code.
 | Application | Version | Publiée le |
 |---|---|---|
 | OneClip | 0.7.0 | 24/10/2026 |
-| OneClip Hub | 1.1.0 | 24/10/2026 |
+| OneClip Hub | 1.1.1 | 24/10/2026 |
 
 ## Installer OneClip Hub
 

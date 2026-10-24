@@ -53,22 +53,19 @@
     {
       "id": "hub",
       "name": "OneClip Hub",
-      "version": "1.1.0",
-      "date": "2026-10-24T16:20:20.050Z",
+      "version": "1.1.1",
+      "date": "2026-10-24T16:49:20.805Z",
       "notes": [
-        "Le Hub devient OneClip Hub, aux couleurs de OneClip ; vos raccourcis « Cadreur » sont remplacés par « OneClip ».",
-        "Commencez depuis le Hub : « Nouveau montage » ou « Créer des clips » ouvrent OneClip directement au bon endroit.",
-        "Vos projets récents s'affichent dans le Hub (double-clic pour ouvrir) ; un projet dont la vidéo est introuvable est signalé.",
-        "Même apparence que OneClip (mêmes couleurs et tailles de boutons)."
+        "Le raccourci « Cadreur Hub » du bureau et du menu Démarrer devient « OneClip Hub », avec le nouveau logo."
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.1.0/hub-1.1.0.cadreur",
-          "size": 300821,
-          "sha256": "d3a0d83dfe1d10bfdfadff8917f0a3666ac30c6724fa90abfe56251c6ec8963b"
+          "url": "hub/1.1.1/hub-1.1.1.cadreur",
+          "size": 302232,
+          "sha256": "3943bd169e6102df1898440c0f4e433d6702f2ee3028463d98b90efa3775647a"
         }
       }
     }
   ],
-  "updatedAt": "2026-10-24T16:20:20.050Z"
+  "updatedAt": "2026-10-24T16:49:20.805Z"
 }
