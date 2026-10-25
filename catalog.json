@@ -53,16 +53,16 @@
     {
       "id": "hub",
       "name": "OneClip Hub",
-      "version": "1.2.1",
-      "date": "2026-10-25T10:08:39.538Z",
+      "version": "1.3.0",
+      "date": "2026-10-25T11:18:04.117Z",
       "notes": [
-        "Sous « Applications », un menu liste vos logiciels (OneClip, OneFile) : un clic ouvre directement la page du logiciel, avec un repère quand une mise à jour est disponible ou qu’il reste à installer."
+        "OneMirror, pour afficher ton téléphone Android sur le PC, s’installe et se met à jour depuis le Hub."
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.2.1/hub-1.2.1.cadreur",
-          "size": 304314,
-          "sha256": "b0cf0a975def9d3226a00f78582d384b7bcfc710606ee91d84a2e2c599a1c723"
+          "url": "hub/1.3.0/hub-1.3.0.cadreur",
+          "size": 304642,
+          "sha256": "f59c7aea7cd9d48d7c53d472a8a8b2580db8b74218743b310b7e3842eed070e1"
         }
       }
     },
@@ -110,7 +110,47 @@
           ]
         }
       }
+    },
+    {
+      "id": "onemirror",
+      "name": "OneMirror",
+      "tagline": "L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS.",
+      "version": "1.0.0",
+      "date": "2026-10-25T11:18:04.117Z",
+      "notes": [
+        "Première version de OneMirror : l’écran de ton téléphone Android sur le PC, gratuit, sans publicité et sans limite de temps.",
+        "Par câble USB pour la meilleure image, ou en Wi-Fi : « Passer en Wi-Fi » en un clic, ou association sans câble avec un code (Android 11+).",
+        "Le son du téléphone sort du PC, et tu utilises le téléphone à la souris et au clavier (clic droit = retour).",
+        "Pensé pour OBS : fenêtre « OneMirror » au titre fixe, préréglages Stream (1080p 60 i/s), Qualité max et Économie, fenêtre sans bordure.",
+        "Manette du PC pour les jeux mobiles, écran du téléphone éteint pendant l’affichage, caméra du téléphone comme webcam.",
+        "Captures d’écran (Images\\OneMirror) et enregistrement vidéo (Vidéos\\OneMirror) en un clic.",
+        "Guide pas à pas pour activer le débogage USB, et messages clairs si le téléphone n’est pas autorisé ou se déconnecte."
+      ],
+      "packages": {
+        "patch": {
+          "url": "onemirror/1.0.0/onemirror-1.0.0-patch.cadreur",
+          "size": 264061,
+          "sha256": "07db1473d1658c6325c172f1eecbd545fceb32c2d6fe99823f6675770689b557",
+          "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
+        },
+        "full": {
+          "version": "1.0.0",
+          "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57",
+          "size": 157001861,
+          "sha256": "e5fb84ef21e75e7b1e3e21e8934df0fd6e0ecc50b32e700f4c50fc3f1ee23aee",
+          "parts": [
+            {
+              "url": "onemirror/base/onemirror-1.0.0-full.cadreur.part01",
+              "size": 94371840
+            },
+            {
+              "url": "onemirror/base/onemirror-1.0.0-full.cadreur.part02",
+              "size": 62630021
+            }
+          ]
+        }
+      }
     }
   ],
-  "updatedAt": "2026-10-25T10:08:39.538Z"
+  "updatedAt": "2026-10-25T11:18:04.117Z"
 }

@@ -7,11 +7,12 @@ Il ne contient que les versions de l'application, pas son code.
 |---|---|---|
 | OneClip | 0.7.0 | 24/10/2026 |
 | OneFile | 1.0.0 | 25/10/2026 |
-| OneClip Hub | 1.2.1 | 25/10/2026 |
+| OneMirror | 1.0.0 | 25/10/2026 |
+| OneClip Hub | 1.3.0 | 25/10/2026 |
 
 ## Installer OneClip Hub
 
-Le Hub installe OneClip et OneFile puis les tient à jour tout seul.
+Le Hub installe OneClip, OneFile et OneMirror puis les tient à jour tout seul.
 
 ## Nouveautés de OneClip 0.7.0
 
@@ -42,3 +43,13 @@ Le Hub installe OneClip et OneFile puis les tient à jour tout seul.
 - PDF en images, en texte, découpés page par page ou fusionnés ; archives ZIP, 7Z, RAR et TAR.GZ extraites ou recompressées ; dossiers compressés.
 - Préréglages (web, Discord, photos iPhone, musique, icône Windows), préréglages personnels et renommage en lot avec numéros.
 - « Convertir avec OneFile » dans le clic droit de Windows, à activer dans les Paramètres de OneFile.
+
+## Nouveautés de OneMirror 1.0.0
+
+- Première version de OneMirror : l’écran de ton téléphone Android sur le PC, gratuit, sans publicité et sans limite de temps.
+- Par câble USB pour la meilleure image, ou en Wi-Fi : « Passer en Wi-Fi » en un clic, ou association sans câble avec un code (Android 11+).
+- Le son du téléphone sort du PC, et tu utilises le téléphone à la souris et au clavier (clic droit = retour).
+- Pensé pour OBS : fenêtre « OneMirror » au titre fixe, préréglages Stream (1080p 60 i/s), Qualité max et Économie, fenêtre sans bordure.
+- Manette du PC pour les jeux mobiles, écran du téléphone éteint pendant l’affichage, caméra du téléphone comme webcam.
+- Captures d’écran (Images\OneMirror) et enregistrement vidéo (Vidéos\OneMirror) en un clic.
+- Guide pas à pas pour activer le débogage USB, et messages clairs si le téléphone n’est pas autorisé ou se déconnecte.
