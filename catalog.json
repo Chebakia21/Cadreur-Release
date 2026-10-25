@@ -53,17 +53,16 @@
     {
       "id": "hub",
       "name": "OneClip Hub",
-      "version": "1.2.0",
-      "date": "2026-10-24T23:41:31.483Z",
+      "version": "1.2.1",
+      "date": "2026-10-25T10:08:39.538Z",
       "notes": [
-        "OneFile, le nouveau convertisseur de fichiers, s’installe et se met à jour depuis le Hub, à côté de OneClip.",
-        "Le clic droit « Convertir avec OneFile » suit automatiquement chaque mise à jour de OneFile."
+        "Sous « Applications », un menu liste vos logiciels (OneClip, OneFile) : un clic ouvre directement la page du logiciel, avec un repère quand une mise à jour est disponible ou qu’il reste à installer."
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.2.0/hub-1.2.0.cadreur",
-          "size": 303517,
-          "sha256": "0e00b997eb3d5eee50b2de9da1ea6cc77300db76386a658d61070ba7b0ab8193"
+          "url": "hub/1.2.1/hub-1.2.1.cadreur",
+          "size": 304314,
+          "sha256": "b0cf0a975def9d3226a00f78582d384b7bcfc710606ee91d84a2e2c599a1c723"
         }
       }
     },
@@ -113,5 +112,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-24T23:41:31.483Z"
+  "updatedAt": "2026-10-25T10:08:39.538Z"
 }
