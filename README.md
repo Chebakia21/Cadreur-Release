@@ -8,11 +8,12 @@ Il ne contient que les versions de l'application, pas son code.
 | OneClip | 0.7.0 | 24/10/2026 |
 | OneFile | 1.1.0 | 26/10/2026 |
 | OneMirror | 1.0.0 | 25/10/2026 |
-| OneClip Hub | 1.3.1 | 26/10/2026 |
+| Billythebot | 1.0.0 | 26/10/2026 |
+| OneClip Hub | 1.4.0 | 26/10/2026 |
 
 ## Installer OneClip Hub
 
-Le Hub installe OneClip, OneFile et OneMirror puis les tient à jour tout seul.
+Le Hub installe OneClip, OneFile, OneMirror et Billythebot puis les tient à jour tout seul.
 
 ## Nouveautés de OneClip 0.7.0
 
@@ -51,3 +52,12 @@ Le Hub installe OneClip, OneFile et OneMirror puis les tient à jour tout seul.
 - Manette du PC pour les jeux mobiles, écran du téléphone éteint pendant l’affichage, caméra du téléphone comme webcam.
 - Captures d’écran (Images\OneMirror) et enregistrement vidéo (Vidéos\OneMirror) en un clic.
 - Guide pas à pas pour activer le débogage USB, et messages clairs si le téléphone n’est pas autorisé ou se déconnecte.
+
+## Nouveautés de Billythebot 1.0.0
+
+- Première version de Billythebot : l’assistant qui construit ton serveur Discord de streamer de A à Z.
+- Il te pose quelques questions (pseudo, chaîne Twitch, ambiance, jeux, salons en plus, jours de stream) et te propose un plan complet que tu peux modifier avant de valider.
+- Il crée les catégories, les salons, les rôles et leurs permissions, active le mode Communauté, l’écran de bienvenue et l’accueil des nouveaux (règles à accepter, notifications de live, jeux à choisir).
+- La modération automatique de Discord est réglée pour toi (insultes en français, pubs et arnaques, spam, mentions en masse), avec les alertes dans un salon réservé au staff.
+- Tes lives Twitch sont annoncés tout seuls dans #lives, l’annonce suit les changements de jeu et indique la fin du live et sa durée.
+- Plus tard, « Modifier le serveur » applique tes changements sans tout refaire ; Billy peut démarrer avec Windows et rester près de l’horloge.
