@@ -53,16 +53,16 @@
     {
       "id": "hub",
       "name": "OneClip Hub",
-      "version": "1.3.0",
-      "date": "2026-10-25T11:18:04.117Z",
+      "version": "1.3.1",
+      "date": "2026-10-26T14:42:05.444Z",
       "notes": [
-        "OneMirror, pour afficher ton téléphone Android sur le PC, s’installe et se met à jour depuis le Hub."
+        "Si OneFile démarre avec Windows, le Hub garde ce démarrage à jour après chaque mise à jour de OneFile."
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.3.0/hub-1.3.0.cadreur",
-          "size": 304642,
-          "sha256": "f59c7aea7cd9d48d7c53d472a8a8b2580db8b74218743b310b7e3842eed070e1"
+          "url": "hub/1.3.1/hub-1.3.1.cadreur",
+          "size": 305892,
+          "sha256": "2b4bf0194de8be9db697ea70f4e275f4ff8f482726ce1de95e5cdb2a40ef91f2"
         }
       }
     },
@@ -70,42 +70,40 @@
       "id": "onefile",
       "name": "OneFile",
       "tagline": "Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local.",
-      "version": "1.0.0",
-      "date": "2026-10-24T23:41:31.483Z",
+      "version": "1.1.0",
+      "date": "2026-10-26T14:42:05.444Z",
       "notes": [
-        "Première version de OneFile : convertissez images, vidéos, sons, PDF et archives, par lots, sans rien envoyer en ligne.",
-        "Glissez des fichiers ou des dossiers entiers : chaque catégorie a son format de sortie, et les fichiers convertis sont créés à côté des originaux, sans jamais rien écraser.",
-        "Photos d’iPhone (HEIC) en JPG, images en WebP, AVIF, PNG, GIF, TIFF, BMP, ICO ou PDF, avec qualité et taille maximale réglables.",
-        "Vidéos en MP4, WebM, MKV, MOV ou GIF, son extrait en MP3, M4A ou WAV, et poids maximal garanti (10 Mo pour Discord).",
-        "Sons en MP3, M4A, WAV, FLAC, OGG ou Opus, avec volume harmonisé en option.",
-        "PDF en images, en texte, découpés page par page ou fusionnés ; archives ZIP, 7Z, RAR et TAR.GZ extraites ou recompressées ; dossiers compressés.",
-        "Préréglages (web, Discord, photos iPhone, musique, icône Windows), préréglages personnels et renommage en lot avec numéros.",
-        "« Convertir avec OneFile » dans le clic droit de Windows, à activer dans les Paramètres de OneFile."
+        "Nouveau format « Sans fond » pour les images : le sujet est détouré automatiquement et le fond devient transparent (PNG). Le modèle (170 Mo) se télécharge une seule fois, au premier usage, puis tout marche sans internet.",
+        "Couper les vidéos et les sons : bouton « Couper » sur chaque fichier, avec lecteur, poignées de début et de fin, touches I, O et espace. Le passage gardé est enregistré dans un fichier « (extrait) », l’original ne bouge pas.",
+        "Dossiers surveillés : tout fichier déposé dans un dossier choisi (par exemple Téléchargements) est converti tout seul, avec le préréglage de votre choix, dans son sous-dossier « Convertis ».",
+        "Quand un dossier est surveillé, fermer OneFile le garde près de l’horloge, et il peut démarrer caché avec Windows.",
+        "Plus de limite de taille : les PDF de plusieurs Go s’ouvrent tout de suite (seules les parties utiles sont lues), et jusqu’à 100 000 fichiers par lot.",
+        "Poids maximal des vidéos : en plus des choix habituels, « Autre… » permet d’entrer n’importe quelle valeur en Mo."
       ],
       "packages": {
         "patch": {
-          "url": "onefile/1.0.0/onefile-1.0.0-patch.cadreur",
-          "size": 10465140,
-          "sha256": "2ecb0f060ab01ce5cca7dd0746cc93e5f9fbbce4a343e9ba8f5623d914e9e106",
-          "runtimeHash": "dc42cbb56148332a56bc8224e403afc97085d8d4baf5cb3075da46ec418fa043"
+          "url": "onefile/1.1.0/onefile-1.1.0-patch.cadreur",
+          "size": 10625152,
+          "sha256": "5b7d14aec91ce2c58dd0b5b2d915e4284ce90142006aae930caf3a5f7e811998",
+          "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec"
         },
         "full": {
-          "version": "1.0.0",
-          "runtimeHash": "dc42cbb56148332a56bc8224e403afc97085d8d4baf5cb3075da46ec418fa043",
-          "size": 228425044,
-          "sha256": "c3450a509ee67688721eb4b6be01ceb8f5d2e27978e894d94a99c1703484730f",
+          "version": "1.1.0",
+          "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec",
+          "size": 256993577,
+          "sha256": "afcff921bcad44b4f1de1c1724859a0ab663520b4cb29fea38a7d36c85b37f88",
           "parts": [
             {
-              "url": "onefile/base/onefile-1.0.0-full.cadreur.part01",
+              "url": "onefile/base/onefile-1.1.0-full.cadreur.part01",
               "size": 94371840
             },
             {
-              "url": "onefile/base/onefile-1.0.0-full.cadreur.part02",
+              "url": "onefile/base/onefile-1.1.0-full.cadreur.part02",
               "size": 94371840
             },
             {
-              "url": "onefile/base/onefile-1.0.0-full.cadreur.part03",
-              "size": 39681364
+              "url": "onefile/base/onefile-1.1.0-full.cadreur.part03",
+              "size": 68249897
             }
           ]
         }
@@ -152,5 +150,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-25T11:18:04.117Z"
+  "updatedAt": "2026-10-26T14:42:05.444Z"
 }

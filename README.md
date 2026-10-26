@@ -6,9 +6,9 @@ Il ne contient que les versions de l'application, pas son code.
 | Application | Version | Publiée le |
 |---|---|---|
 | OneClip | 0.7.0 | 24/10/2026 |
-| OneFile | 1.0.0 | 25/10/2026 |
+| OneFile | 1.1.0 | 26/10/2026 |
 | OneMirror | 1.0.0 | 25/10/2026 |
-| OneClip Hub | 1.3.0 | 25/10/2026 |
+| OneClip Hub | 1.3.1 | 26/10/2026 |
 
 ## Installer OneClip Hub
 
@@ -33,16 +33,14 @@ Le Hub installe OneClip, OneFile et OneMirror puis les tient à jour tout seul.
 - Les projets récents signalent les vidéos introuvables, et le Cadreur Hub peut ouvrir un projet ou démarrer un montage directement.
 - Nouveau réglage « Réduire les animations », zones de clic agrandies et textes plus lisibles partout.
 
-## Nouveautés de OneFile 1.0.0
+## Nouveautés de OneFile 1.1.0
 
-- Première version de OneFile : convertissez images, vidéos, sons, PDF et archives, par lots, sans rien envoyer en ligne.
-- Glissez des fichiers ou des dossiers entiers : chaque catégorie a son format de sortie, et les fichiers convertis sont créés à côté des originaux, sans jamais rien écraser.
-- Photos d’iPhone (HEIC) en JPG, images en WebP, AVIF, PNG, GIF, TIFF, BMP, ICO ou PDF, avec qualité et taille maximale réglables.
-- Vidéos en MP4, WebM, MKV, MOV ou GIF, son extrait en MP3, M4A ou WAV, et poids maximal garanti (10 Mo pour Discord).
-- Sons en MP3, M4A, WAV, FLAC, OGG ou Opus, avec volume harmonisé en option.
-- PDF en images, en texte, découpés page par page ou fusionnés ; archives ZIP, 7Z, RAR et TAR.GZ extraites ou recompressées ; dossiers compressés.
-- Préréglages (web, Discord, photos iPhone, musique, icône Windows), préréglages personnels et renommage en lot avec numéros.
-- « Convertir avec OneFile » dans le clic droit de Windows, à activer dans les Paramètres de OneFile.
+- Nouveau format « Sans fond » pour les images : le sujet est détouré automatiquement et le fond devient transparent (PNG). Le modèle (170 Mo) se télécharge une seule fois, au premier usage, puis tout marche sans internet.
+- Couper les vidéos et les sons : bouton « Couper » sur chaque fichier, avec lecteur, poignées de début et de fin, touches I, O et espace. Le passage gardé est enregistré dans un fichier « (extrait) », l’original ne bouge pas.
+- Dossiers surveillés : tout fichier déposé dans un dossier choisi (par exemple Téléchargements) est converti tout seul, avec le préréglage de votre choix, dans son sous-dossier « Convertis ».
+- Quand un dossier est surveillé, fermer OneFile le garde près de l’horloge, et il peut démarrer caché avec Windows.
+- Plus de limite de taille : les PDF de plusieurs Go s’ouvrent tout de suite (seules les parties utiles sont lues), et jusqu’à 100 000 fichiers par lot.
+- Poids maximal des vidéos : en plus des choix habituels, « Autre… » permet d’entrer n’importe quelle valeur en Mo.
 
 ## Nouveautés de OneMirror 1.0.0
 
