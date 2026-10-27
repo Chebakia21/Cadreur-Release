@@ -70,22 +70,20 @@
       "id": "onefile",
       "name": "OneFile",
       "tagline": "Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local.",
-      "version": "1.2.0",
-      "date": "2026-10-27T15:27:01.883Z",
+      "version": "1.2.1",
+      "date": "2026-10-27T16:02:40.753Z",
       "notes": [
-        "Un onglet par type de fichier : Images, Vidéos, Sons, PDF, Archives et Dossiers. Chaque onglet montre combien de fichiers il contient et ne convertit que les siens.",
-        "Nouveau panneau « Que veux-tu faire ? » : on choisit d’abord l’action (changer de format, réduire le poids, enlever le fond, extraire le son…), puis seulement les réglages utiles s’affichent.",
-        "Nouvel onglet « Depuis un lien » : colle l’adresse d’une image, d’un son, d’une vidéo, d’un PDF ou d’une archive, OneFile le télécharge puis le convertit. Le fichier va dans Téléchargements\\OneFile (modifiable).",
-        "Chaque onglet a aussi un champ pour coller un lien : le fichier téléchargé rejoint la liste.",
-        "Les pages web et les vidéos de YouTube, Twitch, TikTok ou Instagram sont refusées avec une explication : ces sites interdisent de télécharger leurs contenus.",
-        "« Réduire le poids » des images et « Harmoniser le volume » des sons gardent le format d’origine ; les vidéos réduites portent « (réduit) » dans leur nom.",
-        "« Tout convertir » lance d’un coup les fichiers de tous les onglets, chacun avec ses réglages."
+        "Les vidéos YouTube sont acceptées dans l’onglet « Depuis un lien » : colle le lien, OneFile affiche le titre, la chaîne, la durée et la miniature.",
+        "Choix de la qualité (de 360p jusqu’à 4K, 1080p par défaut) et du format : MP4 tel quel, ou converti en WebM, MKV, MOV, GIF, MP3, M4A ou WAV. Pour un son, seul le son est téléchargé.",
+        "Un lien YouTube collé dans l’onglet Vidéos ou Sons ajoute directement la vidéo (ou le son) à la liste.",
+        "Au premier usage, OneFile installe son outil YouTube (environ 18 Mo, une seule fois) et le tient à jour tout seul chaque jour.",
+        "Playlists, chaînes, directs en cours et vidéos privées ou réservées aux adultes sont expliqués clairement au lieu d’échouer."
       ],
       "packages": {
         "patch": {
-          "url": "onefile/1.2.0/onefile-1.2.0-patch.cadreur",
-          "size": 10635192,
-          "sha256": "792d00ee26b539ae9ead85dd9883a4c18c3b5a5a7b63ccdca9906f61901e37d8",
+          "url": "onefile/1.2.1/onefile-1.2.1-patch.cadreur",
+          "size": 10642167,
+          "sha256": "34189e0f7903a7d64f1ac9bac5098355a98f380a1d469b550dc3a3cba74f6db6",
           "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec"
         },
         "full": {
@@ -185,5 +183,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-27T15:27:01.883Z"
+  "updatedAt": "2026-10-27T16:02:40.753Z"
 }

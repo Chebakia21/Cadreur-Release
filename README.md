@@ -6,7 +6,7 @@ Il ne contient que les versions de l'application, pas son code.
 | Application | Version | Publiée le |
 |---|---|---|
 | OneClip | 0.7.0 | 24/10/2026 |
-| OneFile | 1.2.0 | 27/10/2026 |
+| OneFile | 1.2.1 | 27/10/2026 |
 | OneMirror | 1.0.0 | 25/10/2026 |
 | Billythebot | 1.0.1 | 26/10/2026 |
 | OneClip Hub | 1.4.0 | 26/10/2026 |
@@ -34,15 +34,13 @@ Le Hub installe OneClip, OneFile, OneMirror et Billythebot puis les tient à jou
 - Les projets récents signalent les vidéos introuvables, et le Cadreur Hub peut ouvrir un projet ou démarrer un montage directement.
 - Nouveau réglage « Réduire les animations », zones de clic agrandies et textes plus lisibles partout.
 
-## Nouveautés de OneFile 1.2.0
+## Nouveautés de OneFile 1.2.1
 
-- Un onglet par type de fichier : Images, Vidéos, Sons, PDF, Archives et Dossiers. Chaque onglet montre combien de fichiers il contient et ne convertit que les siens.
-- Nouveau panneau « Que veux-tu faire ? » : on choisit d’abord l’action (changer de format, réduire le poids, enlever le fond, extraire le son…), puis seulement les réglages utiles s’affichent.
-- Nouvel onglet « Depuis un lien » : colle l’adresse d’une image, d’un son, d’une vidéo, d’un PDF ou d’une archive, OneFile le télécharge puis le convertit. Le fichier va dans Téléchargements\OneFile (modifiable).
-- Chaque onglet a aussi un champ pour coller un lien : le fichier téléchargé rejoint la liste.
-- Les pages web et les vidéos de YouTube, Twitch, TikTok ou Instagram sont refusées avec une explication : ces sites interdisent de télécharger leurs contenus.
-- « Réduire le poids » des images et « Harmoniser le volume » des sons gardent le format d’origine ; les vidéos réduites portent « (réduit) » dans leur nom.
-- « Tout convertir » lance d’un coup les fichiers de tous les onglets, chacun avec ses réglages.
+- Les vidéos YouTube sont acceptées dans l’onglet « Depuis un lien » : colle le lien, OneFile affiche le titre, la chaîne, la durée et la miniature.
+- Choix de la qualité (de 360p jusqu’à 4K, 1080p par défaut) et du format : MP4 tel quel, ou converti en WebM, MKV, MOV, GIF, MP3, M4A ou WAV. Pour un son, seul le son est téléchargé.
+- Un lien YouTube collé dans l’onglet Vidéos ou Sons ajoute directement la vidéo (ou le son) à la liste.
+- Au premier usage, OneFile installe son outil YouTube (environ 18 Mo, une seule fois) et le tient à jour tout seul chaque jour.
+- Playlists, chaînes, directs en cours et vidéos privées ou réservées aux adultes sont expliqués clairement au lieu d’échouer.
 
 ## Nouveautés de OneMirror 1.0.0
 
