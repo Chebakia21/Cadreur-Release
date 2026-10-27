@@ -6,7 +6,7 @@ Il ne contient que les versions de l'application, pas son code.
 | Application | Version | Publiée le |
 |---|---|---|
 | OneClip | 0.7.0 | 24/10/2026 |
-| OneFile | 1.1.0 | 26/10/2026 |
+| OneFile | 1.2.0 | 27/10/2026 |
 | OneMirror | 1.0.0 | 25/10/2026 |
 | Billythebot | 1.0.1 | 26/10/2026 |
 | OneClip Hub | 1.4.0 | 26/10/2026 |
@@ -34,14 +34,15 @@ Le Hub installe OneClip, OneFile, OneMirror et Billythebot puis les tient à jou
 - Les projets récents signalent les vidéos introuvables, et le Cadreur Hub peut ouvrir un projet ou démarrer un montage directement.
 - Nouveau réglage « Réduire les animations », zones de clic agrandies et textes plus lisibles partout.
 
-## Nouveautés de OneFile 1.1.0
+## Nouveautés de OneFile 1.2.0
 
-- Nouveau format « Sans fond » pour les images : le sujet est détouré automatiquement et le fond devient transparent (PNG). Le modèle (170 Mo) se télécharge une seule fois, au premier usage, puis tout marche sans internet.
-- Couper les vidéos et les sons : bouton « Couper » sur chaque fichier, avec lecteur, poignées de début et de fin, touches I, O et espace. Le passage gardé est enregistré dans un fichier « (extrait) », l’original ne bouge pas.
-- Dossiers surveillés : tout fichier déposé dans un dossier choisi (par exemple Téléchargements) est converti tout seul, avec le préréglage de votre choix, dans son sous-dossier « Convertis ».
-- Quand un dossier est surveillé, fermer OneFile le garde près de l’horloge, et il peut démarrer caché avec Windows.
-- Plus de limite de taille : les PDF de plusieurs Go s’ouvrent tout de suite (seules les parties utiles sont lues), et jusqu’à 100 000 fichiers par lot.
-- Poids maximal des vidéos : en plus des choix habituels, « Autre… » permet d’entrer n’importe quelle valeur en Mo.
+- Un onglet par type de fichier : Images, Vidéos, Sons, PDF, Archives et Dossiers. Chaque onglet montre combien de fichiers il contient et ne convertit que les siens.
+- Nouveau panneau « Que veux-tu faire ? » : on choisit d’abord l’action (changer de format, réduire le poids, enlever le fond, extraire le son…), puis seulement les réglages utiles s’affichent.
+- Nouvel onglet « Depuis un lien » : colle l’adresse d’une image, d’un son, d’une vidéo, d’un PDF ou d’une archive, OneFile le télécharge puis le convertit. Le fichier va dans Téléchargements\OneFile (modifiable).
+- Chaque onglet a aussi un champ pour coller un lien : le fichier téléchargé rejoint la liste.
+- Les pages web et les vidéos de YouTube, Twitch, TikTok ou Instagram sont refusées avec une explication : ces sites interdisent de télécharger leurs contenus.
+- « Réduire le poids » des images et « Harmoniser le volume » des sons gardent le format d’origine ; les vidéos réduites portent « (réduit) » dans leur nom.
+- « Tout convertir » lance d’un coup les fichiers de tous les onglets, chacun avec ses réglages.
 
 ## Nouveautés de OneMirror 1.0.0
 

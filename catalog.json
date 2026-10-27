@@ -70,21 +70,22 @@
       "id": "onefile",
       "name": "OneFile",
       "tagline": "Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local.",
-      "version": "1.1.0",
-      "date": "2026-10-26T14:42:05.444Z",
+      "version": "1.2.0",
+      "date": "2026-10-27T15:27:01.883Z",
       "notes": [
-        "Nouveau format « Sans fond » pour les images : le sujet est détouré automatiquement et le fond devient transparent (PNG). Le modèle (170 Mo) se télécharge une seule fois, au premier usage, puis tout marche sans internet.",
-        "Couper les vidéos et les sons : bouton « Couper » sur chaque fichier, avec lecteur, poignées de début et de fin, touches I, O et espace. Le passage gardé est enregistré dans un fichier « (extrait) », l’original ne bouge pas.",
-        "Dossiers surveillés : tout fichier déposé dans un dossier choisi (par exemple Téléchargements) est converti tout seul, avec le préréglage de votre choix, dans son sous-dossier « Convertis ».",
-        "Quand un dossier est surveillé, fermer OneFile le garde près de l’horloge, et il peut démarrer caché avec Windows.",
-        "Plus de limite de taille : les PDF de plusieurs Go s’ouvrent tout de suite (seules les parties utiles sont lues), et jusqu’à 100 000 fichiers par lot.",
-        "Poids maximal des vidéos : en plus des choix habituels, « Autre… » permet d’entrer n’importe quelle valeur en Mo."
+        "Un onglet par type de fichier : Images, Vidéos, Sons, PDF, Archives et Dossiers. Chaque onglet montre combien de fichiers il contient et ne convertit que les siens.",
+        "Nouveau panneau « Que veux-tu faire ? » : on choisit d’abord l’action (changer de format, réduire le poids, enlever le fond, extraire le son…), puis seulement les réglages utiles s’affichent.",
+        "Nouvel onglet « Depuis un lien » : colle l’adresse d’une image, d’un son, d’une vidéo, d’un PDF ou d’une archive, OneFile le télécharge puis le convertit. Le fichier va dans Téléchargements\\OneFile (modifiable).",
+        "Chaque onglet a aussi un champ pour coller un lien : le fichier téléchargé rejoint la liste.",
+        "Les pages web et les vidéos de YouTube, Twitch, TikTok ou Instagram sont refusées avec une explication : ces sites interdisent de télécharger leurs contenus.",
+        "« Réduire le poids » des images et « Harmoniser le volume » des sons gardent le format d’origine ; les vidéos réduites portent « (réduit) » dans leur nom.",
+        "« Tout convertir » lance d’un coup les fichiers de tous les onglets, chacun avec ses réglages."
       ],
       "packages": {
         "patch": {
-          "url": "onefile/1.1.0/onefile-1.1.0-patch.cadreur",
-          "size": 10625152,
-          "sha256": "5b7d14aec91ce2c58dd0b5b2d915e4284ce90142006aae930caf3a5f7e811998",
+          "url": "onefile/1.2.0/onefile-1.2.0-patch.cadreur",
+          "size": 10635192,
+          "sha256": "792d00ee26b539ae9ead85dd9883a4c18c3b5a5a7b63ccdca9906f61901e37d8",
           "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec"
         },
         "full": {
@@ -184,5 +185,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-26T19:27:17.148Z"
+  "updatedAt": "2026-10-27T15:27:01.883Z"
 }
