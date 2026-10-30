@@ -2,7 +2,7 @@
 
 **Un seul programme à installer : OneCloud.** Il installe OneClip, OneFile et OneMirror, les ouvre, et les tient à jour tout seul.
 
-## ⬇️ [Télécharger OneCloud](https://github.com/Chebakia21/Cadreur-Release/releases/latest/download/OneCloud-Setup.exe)
+## ⬇️ [Télécharger OneCloud](https://raw.githubusercontent.com/Chebakia21/Cadreur-Release/main/installer/OneCloud-Setup.exe)
 
 Pour Windows 10 et 11 (64 bits).
 
@@ -67,6 +67,7 @@ Pas besoin de télécharger quoi que ce soit ici à la main : OneCloud s'en occu
 
 | Élément | Rôle |
 |---|---|
+| `installer/OneCloud-Setup.exe` | L'installateur de OneCloud (le lien « Télécharger OneCloud »). |
 | `catalog.json` | La liste des logiciels et de leurs versions, lue par OneCloud. |
 | `applications/oneclip` | Les fichiers de OneClip. |
 | `applications/onefile` | Les fichiers de OneFile. |
