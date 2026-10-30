@@ -7,7 +7,7 @@ Il ne contient que les versions de l'application, pas son code.
 |---|---|---|
 | OneClip | 0.7.0 | 24/10/2026 |
 | OneFile | 1.2.1 | 27/10/2026 |
-| OneMirror | 1.1.0 | 30/10/2026 |
+| OneMirror | 1.2.0 | 30/10/2026 |
 | OneCloud | 1.5.1 | 30/10/2026 |
 
 ## Installer OneCloud
@@ -41,11 +41,8 @@ OneCloud installe OneClip, OneFile et OneMirror puis les tient à jour tout seul
 - Au premier usage, OneFile installe son outil YouTube (environ 18 Mo, une seule fois) et le tient à jour tout seul chaque jour.
 - Playlists, chaînes, directs en cours et vidéos privées ou réservées aux adultes sont expliqués clairement au lieu d’échouer.
 
-## Nouveautés de OneMirror 1.1.0
+## Nouveautés de OneMirror 1.2.0
 
-- Nouveau cadre autour de l’écran du téléphone : une barre fine avec le nom du téléphone, un bouton Réduire et un bouton Fermer.
-- Un contour fin entoure l’image : attrape la barre ou le bord pour déplacer la fenêtre, tire un bord ou un coin pour l’agrandir, l’image garde les proportions du téléphone.
-- Fermer arrête l’affichage proprement (l’enregistrement en cours est gardé) ; Réduire range l’image et son cadre ensemble dans la barre des tâches.
-- OBS capture toujours la fenêtre « OneMirror » seule, sans le cadre : rien à changer dans tes scènes.
-- Quand le téléphone tourne, le cadre prend les nouvelles proportions tout seul.
-- Tu préfères l’ancienne fenêtre ? Désactive « Cadre OneMirror » dans « Fenêtre et enregistrement ».
+- Le volume du téléphone règle maintenant le son sur le PC : les boutons + et − du téléphone montent et baissent le son de OneMirror, comme dans le mélangeur de volume de Windows.
+- Le volume du téléphone s’affiche sur la carte du téléphone pendant l’affichage (par exemple « 47 % »).
+- Tu préfères garder le son du PC fixe ? Désactive « Le volume du téléphone règle le son sur le PC » dans la partie Son.

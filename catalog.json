@@ -113,21 +113,18 @@
       "id": "onemirror",
       "name": "OneMirror",
       "tagline": "L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS.",
-      "version": "1.1.0",
-      "date": "2026-10-30T11:27:07.784Z",
+      "version": "1.2.0",
+      "date": "2026-10-30T12:34:16.497Z",
       "notes": [
-        "Nouveau cadre autour de l’écran du téléphone : une barre fine avec le nom du téléphone, un bouton Réduire et un bouton Fermer.",
-        "Un contour fin entoure l’image : attrape la barre ou le bord pour déplacer la fenêtre, tire un bord ou un coin pour l’agrandir, l’image garde les proportions du téléphone.",
-        "Fermer arrête l’affichage proprement (l’enregistrement en cours est gardé) ; Réduire range l’image et son cadre ensemble dans la barre des tâches.",
-        "OBS capture toujours la fenêtre « OneMirror » seule, sans le cadre : rien à changer dans tes scènes.",
-        "Quand le téléphone tourne, le cadre prend les nouvelles proportions tout seul.",
-        "Tu préfères l’ancienne fenêtre ? Désactive « Cadre OneMirror » dans « Fenêtre et enregistrement »."
+        "Le volume du téléphone règle maintenant le son sur le PC : les boutons + et − du téléphone montent et baissent le son de OneMirror, comme dans le mélangeur de volume de Windows.",
+        "Le volume du téléphone s’affiche sur la carte du téléphone pendant l’affichage (par exemple « 47 % »).",
+        "Tu préfères garder le son du PC fixe ? Désactive « Le volume du téléphone règle le son sur le PC » dans la partie Son."
       ],
       "packages": {
         "patch": {
-          "url": "onemirror/1.1.0/onemirror-1.1.0-patch.cadreur",
-          "size": 689990,
-          "sha256": "1904a4ab6048a1f8a569876b27b2073f999d927f472913188e46c0c1b97eb480",
+          "url": "onemirror/1.2.0/onemirror-1.2.0-patch.cadreur",
+          "size": 693817,
+          "sha256": "71a12a525483b52821dc37d72dd3807c8168bfe9c6dc21818909bff25e2ac536",
           "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
         },
         "full": {
@@ -149,5 +146,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T11:44:08.593Z"
+  "updatedAt": "2026-10-30T12:34:16.497Z"
 }
