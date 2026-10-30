@@ -17,7 +17,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.0 | 24/10/2026 |
-| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.2.1 | 27/10/2026 |
+| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.3.0 | 30/10/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.2.0 | 30/10/2026 |
 | **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.2 | 30/10/2026 |
 
@@ -42,13 +42,13 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Les projets récents signalent les vidéos introuvables, et OneCloud peut ouvrir un projet ou démarrer un montage directement.
 - Nouveau réglage « Réduire les animations », zones de clic agrandies et textes plus lisibles partout.
 
-### OneFile 1.2.1
+### OneFile 1.3.0
 
-- Les vidéos YouTube sont acceptées dans l’onglet « Depuis un lien » : colle le lien, OneFile affiche le titre, la chaîne, la durée et la miniature.
-- Choix de la qualité (de 360p jusqu’à 4K, 1080p par défaut) et du format : MP4 tel quel, ou converti en WebM, MKV, MOV, GIF, MP3, M4A ou WAV. Pour un son, seul le son est téléchargé.
-- Un lien YouTube collé dans l’onglet Vidéos ou Sons ajoute directement la vidéo (ou le son) à la liste.
-- Au premier usage, OneFile installe son outil YouTube (environ 18 Mo, une seule fois) et le tient à jour tout seul chaque jour.
-- Playlists, chaînes, directs en cours et vidéos privées ou réservées aux adultes sont expliqués clairement au lieu d’échouer.
+- Nouveau dans l’onglet PDF : « En Word (.docx) ». Le document obtenu se comporte comme s’il avait été tapé dans Word : vrais titres, vrais paragraphes qui se recalent quand tu écris, listes à puces et numérotées, tableaux, en-tête et pied de page avec numéro de page automatique.
+- Deux façons de faire : « Garder la mise en page » (colonnes, images et logos à leur place) ou « Texte suivi » (une seule colonne, le plus simple à retoucher).
+- Les PDF scannés sont lus sur ton PC, sans internet : la page est redressée, le texte reconnu (français et anglais), le gras et les tableaux retrouvés.
+- Quand un point mérite un coup d’œil (page scannée, police absente de Windows), OneFile le signale à côté du fichier converti.
+- « En Word » est maintenant le choix proposé d’office pour les PDF.
 
 ### OneMirror 1.2.0
 
