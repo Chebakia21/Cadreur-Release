@@ -53,17 +53,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.1",
-      "date": "2026-10-30T11:44:08.593Z",
+      "version": "1.5.2",
+      "date": "2026-10-30T16:12:46.442Z",
       "notes": [
-        "« Redémarrer » marche enfin : OneCloud se ferme puis se rouvre tout seul sur la nouvelle version, au lieu de rester fermé.",
-        "Tout ce qui était prévu dans la 1.5 arrive avec : le nom OneCloud, le bouton « Désinstaller », la suppression de Billythebot de ton PC et OneMirror 1.1."
+        "OneCloud se prépare au nouveau nom de son cloud sur GitHub (OneCloud au lieu de Cadreur-Release) : il cherche les mises à jour à la nouvelle adresse, et à l’ancienne en secours. Rien ne change pour toi."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.1/hub-1.5.1.cadreur",
-          "size": 310207,
-          "sha256": "7c11a54f9c47bbf83fa002bf3a3de7d86827e019cdc17b243c25cfbd76729790"
+          "url": "applications/onecloud/1.5.2/hub-1.5.2.cadreur",
+          "size": 310631,
+          "sha256": "2d57da6ac45429b17adf7de4e2ae17094f5a27a01f46e8c23af5b97f4eb8687e"
         }
       }
     },
@@ -146,5 +145,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T16:05:56.068Z"
+  "updatedAt": "2026-10-30T16:12:46.442Z"
 }

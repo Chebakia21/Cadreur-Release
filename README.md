@@ -19,7 +19,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.0 | 24/10/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.2.1 | 27/10/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.2.0 | 30/10/2026 |
-| **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.1 | 30/10/2026 |
+| **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.2 | 30/10/2026 |
 
 ## Nouveautés
 
@@ -56,10 +56,9 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Le volume du téléphone s’affiche sur la carte du téléphone pendant l’affichage (par exemple « 47 % »).
 - Tu préfères garder le son du PC fixe ? Désactive « Le volume du téléphone règle le son sur le PC » dans la partie Son.
 
-### OneCloud 1.5.1
+### OneCloud 1.5.2
 
-- « Redémarrer » marche enfin : OneCloud se ferme puis se rouvre tout seul sur la nouvelle version, au lieu de rester fermé.
-- Tout ce qui était prévu dans la 1.5 arrive avec : le nom OneCloud, le bouton « Désinstaller », la suppression de Billythebot de ton PC et OneMirror 1.1.
+- OneCloud se prépare au nouveau nom de son cloud sur GitHub (OneCloud au lieu de Cadreur-Release) : il cherche les mises à jour à la nouvelle adresse, et à l’ancienne en secours. Rien ne change pour toi.
 
 ## Comment ce dépôt est rangé
 
