@@ -8,7 +8,7 @@ Il ne contient que les versions de l'application, pas son code.
 | OneClip | 0.7.0 | 24/10/2026 |
 | OneFile | 1.2.1 | 27/10/2026 |
 | OneMirror | 1.1.0 | 30/10/2026 |
-| OneCloud | 1.5.0 | 30/10/2026 |
+| OneCloud | 1.5.1 | 30/10/2026 |
 
 ## Installer OneCloud
 

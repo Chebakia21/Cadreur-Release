@@ -53,19 +53,17 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.0",
-      "date": "2026-10-30T11:27:07.784Z",
+      "version": "1.5.1",
+      "date": "2026-10-30T11:44:08.593Z",
       "notes": [
-        "Le Hub s’appelle maintenant OneCloud : fenêtre, raccourcis du bureau et du menu Démarrer, liste « Applications installées » de Windows, et dossier Documents\\OneCloud\\Arrivées (les paquets déjà reçus y sont déplacés).",
-        "Nouveau bouton « Désinstaller » à côté de « Ouvrir » sur chaque application installée ; si l’application est encore ouverte, OneCloud te demande de la fermer et n’efface rien à moitié.",
-        "Billythebot est retiré : OneCloud l’arrête et l’efface de ton PC (programme, démarrage avec Windows, raccourcis et réglages).",
-        "OneMirror 1.1 avec son nouveau cadre (Réduire, Fermer, contour pour déplacer la fenêtre)."
+        "« Redémarrer » marche enfin : OneCloud se ferme puis se rouvre tout seul sur la nouvelle version, au lieu de rester fermé.",
+        "Tout ce qui était prévu dans la 1.5 arrive avec : le nom OneCloud, le bouton « Désinstaller », la suppression de Billythebot de ton PC et OneMirror 1.1."
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.5.0/hub-1.5.0.cadreur",
-          "size": 309055,
-          "sha256": "9295fa559d05f7eafb2d1aead38d304a13da9933cba3bbd395efcc0a0c72ca84"
+          "url": "hub/1.5.1/hub-1.5.1.cadreur",
+          "size": 310207,
+          "sha256": "7c11a54f9c47bbf83fa002bf3a3de7d86827e019cdc17b243c25cfbd76729790"
         }
       }
     },
@@ -151,5 +149,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T11:27:07.784Z"
+  "updatedAt": "2026-10-30T11:44:08.593Z"
 }
