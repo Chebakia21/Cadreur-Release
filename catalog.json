@@ -27,7 +27,7 @@
       ],
       "packages": {
         "patch": {
-          "url": "cadreur/0.7.0/cadreur-0.7.0-patch.cadreur",
+          "url": "applications/oneclip/0.7.0/cadreur-0.7.0-patch.cadreur",
           "size": 17256839,
           "sha256": "a2c692afc673166396fc63ef7c3a167ee01a0681612720bd16577e5e5b8d7efe",
           "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
@@ -39,11 +39,11 @@
           "sha256": "5d130d36ec718df15cd5d443cd2d74bedbe150f4f0ff3ab96dfde648b49e332e",
           "parts": [
             {
-              "url": "cadreur/base/cadreur-0.3.0-full.cadreur.part01",
+              "url": "applications/oneclip/base/cadreur-0.3.0-full.cadreur.part01",
               "size": 94371840
             },
             {
-              "url": "cadreur/base/cadreur-0.3.0-full.cadreur.part02",
+              "url": "applications/oneclip/base/cadreur-0.3.0-full.cadreur.part02",
               "size": 75671631
             }
           ]
@@ -61,7 +61,7 @@
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.5.1/hub-1.5.1.cadreur",
+          "url": "applications/onecloud/1.5.1/hub-1.5.1.cadreur",
           "size": 310207,
           "sha256": "7c11a54f9c47bbf83fa002bf3a3de7d86827e019cdc17b243c25cfbd76729790"
         }
@@ -82,7 +82,7 @@
       ],
       "packages": {
         "patch": {
-          "url": "onefile/1.2.1/onefile-1.2.1-patch.cadreur",
+          "url": "applications/onefile/1.2.1/onefile-1.2.1-patch.cadreur",
           "size": 10642167,
           "sha256": "34189e0f7903a7d64f1ac9bac5098355a98f380a1d469b550dc3a3cba74f6db6",
           "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec"
@@ -94,15 +94,15 @@
           "sha256": "afcff921bcad44b4f1de1c1724859a0ab663520b4cb29fea38a7d36c85b37f88",
           "parts": [
             {
-              "url": "onefile/base/onefile-1.1.0-full.cadreur.part01",
+              "url": "applications/onefile/base/onefile-1.1.0-full.cadreur.part01",
               "size": 94371840
             },
             {
-              "url": "onefile/base/onefile-1.1.0-full.cadreur.part02",
+              "url": "applications/onefile/base/onefile-1.1.0-full.cadreur.part02",
               "size": 94371840
             },
             {
-              "url": "onefile/base/onefile-1.1.0-full.cadreur.part03",
+              "url": "applications/onefile/base/onefile-1.1.0-full.cadreur.part03",
               "size": 68249897
             }
           ]
@@ -122,7 +122,7 @@
       ],
       "packages": {
         "patch": {
-          "url": "onemirror/1.2.0/onemirror-1.2.0-patch.cadreur",
+          "url": "applications/onemirror/1.2.0/onemirror-1.2.0-patch.cadreur",
           "size": 693817,
           "sha256": "71a12a525483b52821dc37d72dd3807c8168bfe9c6dc21818909bff25e2ac536",
           "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
@@ -134,11 +134,11 @@
           "sha256": "e5fb84ef21e75e7b1e3e21e8934df0fd6e0ecc50b32e700f4c50fc3f1ee23aee",
           "parts": [
             {
-              "url": "onemirror/base/onemirror-1.0.0-full.cadreur.part01",
+              "url": "applications/onemirror/base/onemirror-1.0.0-full.cadreur.part01",
               "size": 94371840
             },
             {
-              "url": "onemirror/base/onemirror-1.0.0-full.cadreur.part02",
+              "url": "applications/onemirror/base/onemirror-1.0.0-full.cadreur.part02",
               "size": 62630021
             }
           ]
@@ -146,5 +146,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T12:34:16.497Z"
+  "updatedAt": "2026-10-30T15:10:43.391Z"
 }
