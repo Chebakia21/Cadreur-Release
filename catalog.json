@@ -52,17 +52,20 @@
     },
     {
       "id": "hub",
-      "name": "OneClip Hub",
-      "version": "1.4.0",
-      "date": "2026-10-26T15:44:13.205Z",
+      "name": "OneCloud",
+      "version": "1.5.0",
+      "date": "2026-10-30T11:27:07.784Z",
       "notes": [
-        "Billythebot, l’assistant qui construit et anime ton serveur Discord, s’installe et se met à jour depuis le Hub."
+        "Le Hub s’appelle maintenant OneCloud : fenêtre, raccourcis du bureau et du menu Démarrer, liste « Applications installées » de Windows, et dossier Documents\\OneCloud\\Arrivées (les paquets déjà reçus y sont déplacés).",
+        "Nouveau bouton « Désinstaller » à côté de « Ouvrir » sur chaque application installée ; si l’application est encore ouverte, OneCloud te demande de la fermer et n’efface rien à moitié.",
+        "Billythebot est retiré : OneCloud l’arrête et l’efface de ton PC (programme, démarrage avec Windows, raccourcis et réglages).",
+        "OneMirror 1.1 avec son nouveau cadre (Réduire, Fermer, contour pour déplacer la fenêtre)."
       ],
       "packages": {
         "hub": {
-          "url": "hub/1.4.0/hub-1.4.0.cadreur",
-          "size": 306319,
-          "sha256": "eb2c1a6db1878e82fe0e81371eeded435aa06dba7525f37c1e113c3fd15c65fc"
+          "url": "hub/1.5.0/hub-1.5.0.cadreur",
+          "size": 309055,
+          "sha256": "9295fa559d05f7eafb2d1aead38d304a13da9933cba3bbd395efcc0a0c72ca84"
         }
       }
     },
@@ -112,22 +115,21 @@
       "id": "onemirror",
       "name": "OneMirror",
       "tagline": "L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS.",
-      "version": "1.0.0",
-      "date": "2026-10-25T11:18:04.117Z",
+      "version": "1.1.0",
+      "date": "2026-10-30T11:27:07.784Z",
       "notes": [
-        "Première version de OneMirror : l’écran de ton téléphone Android sur le PC, gratuit, sans publicité et sans limite de temps.",
-        "Par câble USB pour la meilleure image, ou en Wi-Fi : « Passer en Wi-Fi » en un clic, ou association sans câble avec un code (Android 11+).",
-        "Le son du téléphone sort du PC, et tu utilises le téléphone à la souris et au clavier (clic droit = retour).",
-        "Pensé pour OBS : fenêtre « OneMirror » au titre fixe, préréglages Stream (1080p 60 i/s), Qualité max et Économie, fenêtre sans bordure.",
-        "Manette du PC pour les jeux mobiles, écran du téléphone éteint pendant l’affichage, caméra du téléphone comme webcam.",
-        "Captures d’écran (Images\\OneMirror) et enregistrement vidéo (Vidéos\\OneMirror) en un clic.",
-        "Guide pas à pas pour activer le débogage USB, et messages clairs si le téléphone n’est pas autorisé ou se déconnecte."
+        "Nouveau cadre autour de l’écran du téléphone : une barre fine avec le nom du téléphone, un bouton Réduire et un bouton Fermer.",
+        "Un contour fin entoure l’image : attrape la barre ou le bord pour déplacer la fenêtre, tire un bord ou un coin pour l’agrandir, l’image garde les proportions du téléphone.",
+        "Fermer arrête l’affichage proprement (l’enregistrement en cours est gardé) ; Réduire range l’image et son cadre ensemble dans la barre des tâches.",
+        "OBS capture toujours la fenêtre « OneMirror » seule, sans le cadre : rien à changer dans tes scènes.",
+        "Quand le téléphone tourne, le cadre prend les nouvelles proportions tout seul.",
+        "Tu préfères l’ancienne fenêtre ? Désactive « Cadre OneMirror » dans « Fenêtre et enregistrement »."
       ],
       "packages": {
         "patch": {
-          "url": "onemirror/1.0.0/onemirror-1.0.0-patch.cadreur",
-          "size": 264061,
-          "sha256": "07db1473d1658c6325c172f1eecbd545fceb32c2d6fe99823f6675770689b557",
+          "url": "onemirror/1.1.0/onemirror-1.1.0-patch.cadreur",
+          "size": 689990,
+          "sha256": "1904a4ab6048a1f8a569876b27b2073f999d927f472913188e46c0c1b97eb480",
           "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
         },
         "full": {
@@ -147,41 +149,7 @@
           ]
         }
       }
-    },
-    {
-      "id": "billythebot",
-      "name": "Billythebot",
-      "tagline": "L’assistant qui construit ton serveur Discord de streamer, puis l’anime : accueil, modération, annonces de live.",
-      "version": "1.0.1",
-      "date": "2026-10-26T19:27:17.148Z",
-      "notes": [
-        "Correction : la construction ne s’arrête plus à l’étape « Catégories et salons » (Discord refusait de ranger plusieurs salons d’un coup). Clique sur « Réessayer » : Billy reprend là où il s’était arrêté, sans rien créer en double."
-      ],
-      "packages": {
-        "patch": {
-          "url": "billythebot/1.0.1/billythebot-1.0.1-patch.cadreur",
-          "size": 256846,
-          "sha256": "d3b338b954a088ef7e364e6c850580635bcb79a61d64be3444b4d102d9c43be2",
-          "runtimeHash": "9c954486def5b03cf2f92f63743c83c024324e1fee6389b9364b9474907300d6"
-        },
-        "full": {
-          "version": "1.0.0",
-          "runtimeHash": "9c954486def5b03cf2f92f63743c83c024324e1fee6389b9364b9474907300d6",
-          "size": 145728861,
-          "sha256": "26c63709af321c5bbee2c93f4ef635d1c872a4ce0f05aceb9828c7f03fd0762a",
-          "parts": [
-            {
-              "url": "billythebot/base/billythebot-1.0.0-full.cadreur.part01",
-              "size": 94371840
-            },
-            {
-              "url": "billythebot/base/billythebot-1.0.0-full.cadreur.part02",
-              "size": 51357021
-            }
-          ]
-        }
-      }
     }
   ],
-  "updatedAt": "2026-10-27T16:02:40.753Z"
+  "updatedAt": "2026-10-30T11:27:07.784Z"
 }

@@ -1,19 +1,18 @@
 # OneClip (anciennement Cadreur) — versions publiées
 
-Ce dépôt est le « cloud » de **OneClip Hub** : le Hub y lit `catalog.json` et télécharge les mises à jour.
+Ce dépôt est le cloud de **OneCloud** : OneCloud y lit `catalog.json` et télécharge les mises à jour.
 Il ne contient que les versions de l'application, pas son code.
 
 | Application | Version | Publiée le |
 |---|---|---|
 | OneClip | 0.7.0 | 24/10/2026 |
 | OneFile | 1.2.1 | 27/10/2026 |
-| OneMirror | 1.0.0 | 25/10/2026 |
-| Billythebot | 1.0.1 | 26/10/2026 |
-| OneClip Hub | 1.4.0 | 26/10/2026 |
+| OneMirror | 1.1.0 | 30/10/2026 |
+| OneCloud | 1.5.0 | 30/10/2026 |
 
-## Installer OneClip Hub
+## Installer OneCloud
 
-Le Hub installe OneClip, OneFile, OneMirror et Billythebot puis les tient à jour tout seul.
+OneCloud installe OneClip, OneFile et OneMirror puis les tient à jour tout seul.
 
 ## Nouveautés de OneClip 0.7.0
 
@@ -42,16 +41,11 @@ Le Hub installe OneClip, OneFile, OneMirror et Billythebot puis les tient à jou
 - Au premier usage, OneFile installe son outil YouTube (environ 18 Mo, une seule fois) et le tient à jour tout seul chaque jour.
 - Playlists, chaînes, directs en cours et vidéos privées ou réservées aux adultes sont expliqués clairement au lieu d’échouer.
 
-## Nouveautés de OneMirror 1.0.0
+## Nouveautés de OneMirror 1.1.0
 
-- Première version de OneMirror : l’écran de ton téléphone Android sur le PC, gratuit, sans publicité et sans limite de temps.
-- Par câble USB pour la meilleure image, ou en Wi-Fi : « Passer en Wi-Fi » en un clic, ou association sans câble avec un code (Android 11+).
-- Le son du téléphone sort du PC, et tu utilises le téléphone à la souris et au clavier (clic droit = retour).
-- Pensé pour OBS : fenêtre « OneMirror » au titre fixe, préréglages Stream (1080p 60 i/s), Qualité max et Économie, fenêtre sans bordure.
-- Manette du PC pour les jeux mobiles, écran du téléphone éteint pendant l’affichage, caméra du téléphone comme webcam.
-- Captures d’écran (Images\OneMirror) et enregistrement vidéo (Vidéos\OneMirror) en un clic.
-- Guide pas à pas pour activer le débogage USB, et messages clairs si le téléphone n’est pas autorisé ou se déconnecte.
-
-## Nouveautés de Billythebot 1.0.1
-
-- Correction : la construction ne s’arrête plus à l’étape « Catégories et salons » (Discord refusait de ranger plusieurs salons d’un coup). Clique sur « Réessayer » : Billy reprend là où il s’était arrêté, sans rien créer en double.
+- Nouveau cadre autour de l’écran du téléphone : une barre fine avec le nom du téléphone, un bouton Réduire et un bouton Fermer.
+- Un contour fin entoure l’image : attrape la barre ou le bord pour déplacer la fenêtre, tire un bord ou un coin pour l’agrandir, l’image garde les proportions du téléphone.
+- Fermer arrête l’affichage proprement (l’enregistrement en cours est gardé) ; Réduire range l’image et son cadre ensemble dans la barre des tâches.
+- OBS capture toujours la fenêtre « OneMirror » seule, sans le cadre : rien à changer dans tes scènes.
+- Quand le téléphone tourne, le cadre prend les nouvelles proportions tout seul.
+- Tu préfères l’ancienne fenêtre ? Désactive « Cadre OneMirror » dans « Fenêtre et enregistrement ».
