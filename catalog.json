@@ -70,20 +70,20 @@
       "id": "onefile",
       "name": "OneFile",
       "tagline": "Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local.",
-      "version": "1.3.0",
-      "date": "2026-10-30T18:33:01.809Z",
+      "version": "1.4.0",
+      "date": "2026-10-31T16:44:07.787Z",
       "notes": [
-        "Nouveau dans l’onglet PDF : « En Word (.docx) ». Le document obtenu se comporte comme s’il avait été tapé dans Word : vrais titres, vrais paragraphes qui se recalent quand tu écris, listes à puces et numérotées, tableaux, en-tête et pied de page avec numéro de page automatique.",
-        "Deux façons de faire : « Garder la mise en page » (colonnes, images et logos à leur place) ou « Texte suivi » (une seule colonne, le plus simple à retoucher).",
-        "Les PDF scannés sont lus sur ton PC, sans internet : la page est redressée, le texte reconnu (français et anglais), le gras et les tableaux retrouvés.",
-        "Quand un point mérite un coup d’œil (page scannée, police absente de Windows), OneFile le signale à côté du fichier converti.",
-        "« En Word » est maintenant le choix proposé d’office pour les PDF."
+        "Nouvelle action pour les images : « Changer les dimensions ». Choisis une taille toute prête ou entre la tienne, et chaque image sort exactement à cette taille, à côté de l’original (« photo (1920x1080).jpg »).",
+        "Plus de 40 tailles prêtes : écran (Full HD, 4K, vertical…), Twitch (photo de profil, bannière, écran hors ligne, panneau, emote, badge d’abonné, icône de points de chaîne), YouTube (miniature, bannière, filigrane, Short…), Instagram, TikTok, X, Discord, Facebook, LinkedIn et impression A4.",
+        "Emotes, badges et icônes de points de chaîne Twitch : toutes les tailles demandées par Twitch d’un coup (par exemple 112, 56 et 28 px), en PNG transparent, dans un dossier.",
+        "Quand les proportions ne sont pas les mêmes : « Remplir » (les bords qui dépassent sont rognés, en gardant le centre ou le sujet), « Tout garder » (bords flous, noirs, blancs ou transparents) ou « Étirer ».",
+        "Taille personnalisée : remplis la largeur, la hauteur, ou une seule des deux pour garder les proportions."
       ],
       "packages": {
         "patch": {
-          "url": "applications/onefile/1.3.0/onefile-1.3.0-patch.cadreur",
-          "size": 32498942,
-          "sha256": "d2cf1dffbbc7985cdc177d44366ce1b0c079056a99a7f9ebee3f1a4fe4139ee3",
+          "url": "applications/onefile/1.4.0/onefile-1.4.0-patch.cadreur",
+          "size": 32504287,
+          "sha256": "64773cb9427b601ae2cc0b74b23d63899dd1447085685e3a2e7b0082b5200007",
           "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec"
         },
         "full": {
@@ -145,5 +145,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-30T18:33:01.809Z"
+  "updatedAt": "2026-10-31T16:44:07.787Z"
 }

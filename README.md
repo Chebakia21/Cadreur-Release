@@ -17,7 +17,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.0 | 24/10/2026 |
-| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.3.0 | 30/10/2026 |
+| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.0 | 31/10/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.2.0 | 30/10/2026 |
 | **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.2 | 30/10/2026 |
 
@@ -42,13 +42,13 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Les projets récents signalent les vidéos introuvables, et OneCloud peut ouvrir un projet ou démarrer un montage directement.
 - Nouveau réglage « Réduire les animations », zones de clic agrandies et textes plus lisibles partout.
 
-### OneFile 1.3.0
+### OneFile 1.4.0
 
-- Nouveau dans l’onglet PDF : « En Word (.docx) ». Le document obtenu se comporte comme s’il avait été tapé dans Word : vrais titres, vrais paragraphes qui se recalent quand tu écris, listes à puces et numérotées, tableaux, en-tête et pied de page avec numéro de page automatique.
-- Deux façons de faire : « Garder la mise en page » (colonnes, images et logos à leur place) ou « Texte suivi » (une seule colonne, le plus simple à retoucher).
-- Les PDF scannés sont lus sur ton PC, sans internet : la page est redressée, le texte reconnu (français et anglais), le gras et les tableaux retrouvés.
-- Quand un point mérite un coup d’œil (page scannée, police absente de Windows), OneFile le signale à côté du fichier converti.
-- « En Word » est maintenant le choix proposé d’office pour les PDF.
+- Nouvelle action pour les images : « Changer les dimensions ». Choisis une taille toute prête ou entre la tienne, et chaque image sort exactement à cette taille, à côté de l’original (« photo (1920x1080).jpg »).
+- Plus de 40 tailles prêtes : écran (Full HD, 4K, vertical…), Twitch (photo de profil, bannière, écran hors ligne, panneau, emote, badge d’abonné, icône de points de chaîne), YouTube (miniature, bannière, filigrane, Short…), Instagram, TikTok, X, Discord, Facebook, LinkedIn et impression A4.
+- Emotes, badges et icônes de points de chaîne Twitch : toutes les tailles demandées par Twitch d’un coup (par exemple 112, 56 et 28 px), en PNG transparent, dans un dossier.
+- Quand les proportions ne sont pas les mêmes : « Remplir » (les bords qui dépassent sont rognés, en gardant le centre ou le sujet), « Tout garder » (bords flous, noirs, blancs ou transparents) ou « Étirer ».
+- Taille personnalisée : remplis la largeur, la hauteur, ou une seule des deux pour garder les proportions.
 
 ### OneMirror 1.2.0
 
